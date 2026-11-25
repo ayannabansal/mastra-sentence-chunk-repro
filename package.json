@@ -1,0 +1,14 @@
+{
+  "name": "mastra-sentence-chunk-repro",
+  "version": "1.0.0",
+  "description": "Reproduction: @mastra/rag sentence chunking misses sentence boundaries",
+  "scripts": {
+    "repro": "node repro.mjs",
+    "check": "node proposed-fix-check.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "@mastra/rag": "^2.8.2"
+  },
+  "private": true
+}
